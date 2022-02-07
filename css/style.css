@@ -2300,7 +2300,7 @@ button.btn.btn-link i {
 }
 
 .clubhose-details {
-  background: #e0edf1;
+  /* background: #e0edf1; */
   /* padding: 20px; */
 }
 .clubhouse-inner {
@@ -3286,4 +3286,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .overview-list p{
   font-size: 1rem;
+}
+
+.site-clubhouse{
+  background:#38484f;
+  color: #fff;
 }
