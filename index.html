@@ -41,77 +41,6 @@
 <body style="background-color: #F2F1EE;">
     <div class="body-inner">
 
-        <div id="boxes">
-            <div id="dialog" class="window">
-                <div id="lorem">
-                    <p>
-                        Thank you for visiting Sahasram Developers website
-                    </p>
-                    <p>
-                        Specifications and amenities mentioned in this website are only representational and
-                        informative.
-                        Information, images and visuals, drawings plans or sketches shown in this websites are only an
-                        architect's impression and are only indicative of the envisaged developments and the same are
-                        subject to approvals from local authorities. The Developer/Promoter reserves rights to make
-                        additions, deletions, alterations or amendments as and when it deem fit and proper, without any
-                        prior notice. No representation or warranty is made or intended as to the accuracy or
-                        completeness
-                        of information and no commitments are being given under this website as to it’s suitability or
-                        adequacy for any purpose or otherwise howsoever.
-                    </p>
-                    <p>
-                        All dimensions mentioned in the drawings may vary/differ due to construction contingencies and
-                        site conditions. Actual product/ development and any other aspect may differ from what is
-                        portrayed herein. All layouts, plans, specifications, dimensions, designs, measurements and
-                        locations are indicative and not to scale and are subject to change as may be decided by the
-                        company or competent authority. Revision, alteration, modification, addition, deletion,
-                        substitution
-                        or recast, if any, may be necessary during construction.
-                    </p>
-                    <p>
-                        Interior designing used in the flat/unit plan and images are only for representation purpose.
-                        The
-                        picture of the proposed Residential Flat/Unit and all furniture's, fixtures, items, electronic
-                        goods,
-                        amenities, landscaping, accessories etc. specified therein are only for the purpose of show
-                        casing
-                        the Residential Flat/Unit and the Developer is not liable / required to provide any furniture,
-                        items,
-                        electronic goods amenities, accessories etc. as displayed in the pictures. The Recreational
-                        Facilities and amenities will form a part of Developer/Promoter’s retained area and will not
-                        form a
-                        part of common amenities and facilities.
-                    </p>
-                    <p>
-                        The views shown in the picture may vary over period of time and does not guarantee the same.
-                        All intending purchaser/s are bound to inspect all plans and approvals and visit project site
-                        and
-                        apprise themselves of all plans and approvals and other relevant information and nothing in this
-                        website is intended to substitute to the intending purchaser the actual plans and approvals
-                        obtained from time to time. The relationship between the Developer and the actual customers will
-                        be governed strictly by the agreements to be executed from time to time and not on the terms of
-                        this website. All details and prices quoted are indicative and have been calculated on basic
-                        rate.
-                    </p>
-                    <p>
-                        This website is merely conceptual and is not a legal document. It cannot be treated as a part of
-                        the final purchase agreement/s that may be executed from time to time. The Developer reserves
-                        right to change, amend, modify the contents of the brochure and architectural specifications
-                        during
-                        development stages. The Developer/Management holds no responsibility for its accuracy and shall
-                        not be liable to any intending purchaser or any one for the changes/ alterations/ improvements
-                        so
-                        made.
-                    </p>
-                </div>
-                <div id="popupfoot">
-                    <a href="https://sahasramdevelopers.com/" class=" agree btn-agree">I agree</a>
-                </div>
-            </div>
-            <!-- <div id="mask"></div> -->
-        </div>
-
-
 
         <div class="site-mobile-menu site-navbar-target">
             <div class="site-mobile-menu-header">
@@ -510,50 +439,7 @@
 
         <script src="js/script.js"></script>
 
-        <script>
-            $(document).ready(function () {
 
-                var id = '#dialog';
-
-                //Get the screen height and width
-                var maskHeight = $(document).height();
-                var maskWidth = $(window).width();
-
-                //Set heigth and width to mask to fill up the whole screen
-                $('#boxes').css({ 'width': maskWidth, 'height': maskHeight });
-
-                //transition effect		
-                $('#boxes').fadeIn(500);
-                $('#boxes').fadeTo("slow");
-
-                //Get the window height and width
-                var winH = $(window).height();
-                var winW = $(window).width();
-
-                //Set the popup window to center
-                // $(id).css('top', winH / 2 - $(id).height() / 2);
-                // $(id).css('left', winW / 2 - $(id).width() / 2);
-
-                //transition effect
-                $(id).fadeIn(2000);
-
-                //if close button is clicked
-                $('.window .close').click(function (e) {
-                    //Cancel the link behavior
-                    e.preventDefault();
-
-                    $('#boxes').hide();
-                    $('.window').hide();
-                });
-
-                //if mask is clicked
-                $('#boxes').click(function () {
-                    $(this).hide();
-                    $('.window').hide();
-                });
-
-            });
-        </script>
         <script>
             $(function () {
                 $('.popup-youtube').magnificPopup({
