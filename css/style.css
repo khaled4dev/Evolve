@@ -1054,42 +1054,6 @@ label {
 }
 
 
-
-@media (max-width: 575px) {
-
-
-
-
-
-
-  .plan-proxy {
-    padding: 20px;
-    position: unset !important;
-    top: 0px !important;
-    right: 0px !important;
-    transform: unset !important;
-  }
-
-  .header-content {
-    padding: 10px !important;
-  }
-
-  .gv-projects .item .cover .header-content h4 {
-    font-size: 14px !important;
-    line-height: 26px !important;
-  }
-
-  .gv-projects .item {
-    height: 70vh !important;
-  }
-
-  .res-mb {
-    margin-bottom: 0.8rem;
-  }
-}
-
-
-
 /* Sidebar
 ================================================== */
 .sidebar .widget-title {
@@ -1280,50 +1244,48 @@ label {
 }
 
 @media screen and (min-width: 320px) and (max-width: 520px) {
-  .about-info {
-    width: 100%;
+  .home-banner{
+    height: 30vh !important;
+  }
+  .home-banner ul img{
+    height: 35vh !important;
   }
 
-  .project-dis-box {
-    flex-direction: column;
+  .evolve-ab{
+    flex-direction: column !important;
   }
 
-  .left-side-info {
-    width: 100%;
-    padding: 32px 32px 32px 32px;
+  .cashmeer-icon{
+    position: unset !important;
+    width: 100%  !important;
+    padding: 20px !important;
+  }
+  .cashmeer-icon h1{
+    font-size: 45px !important;
   }
 
-  .right-side-img {
-    width: 100%;
+  .cashmeer-icon p{
+    width: 100% !important;
+  }
+  .cashmeer-ab-banner img{
+    height: 40vh !important;
   }
 
-  .box-slider-text img {
-    width: 100%;
+  .evolve-back{
+    background-attachment: unset !important;
+    height: 26vh !important;
   }
 
-  .nav-pills {
-    width: unset !important;
+  .page-slider.small-bg .item{
+    min-height: auto !important;
   }
 
-  .page-slider.small-bg .item {
-    min-height: 210px;
+  .evolve-nature-con{
+    margin-top: 20px !important;
   }
 
-  .accordion {
-    margin: 0 auto !important;
-  }
-
-  .cashmeer-map {
-    width: 100%;
-  }
-
-  section,
-  .section-padding {
-    padding: 20px 0px;
-  }
-
-  .cashmeer-icon {
-    padding-left: 0 !important;
+  .site-mobile{
+    flex-direction:column-reverse !important;
   }
 }
 
@@ -1980,58 +1942,7 @@ button.btn.btn-link i {
   min-height: 210px;
 }
 
-@media (max-width: 520px) {
-  .cadol-info-box {
-    flex-direction: column;
-    height: auto;
-  }
 
-  .cadol-ab-img {
-    position: unset;
-    width: 100%;
-    height: 230px;
-  }
-
-  .cadol-ab-info {
-    width: 90%;
-    padding-left: 6%;
-  }
-
-  .abo-info p {
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 992px) {
-  .cadol-info-box {
-    flex-direction: column;
-    height: auto;
-  }
-
-  .cadol-ab-img {
-    position: unset;
-    width: 100%;
-    height: 230px;
-  }
-
-  .cadol-ab-info {
-    width: 90%;
-    padding-left: 6%;
-  }
-
-  .abo-info p {
-    font-size: 1rem;
-  }
-
-  .project-dis-box {
-    flex-direction: column;
-  }
-
-  .left-side-info,
-  .right-side-img {
-    width: 100%;
-  }
-}
 
 .ts-service-box-bg {
   background: #252525;
@@ -3367,6 +3278,23 @@ hr {
 
 @media (max-width: 991.98px) {
   .work-wrap .text h2 {
-    font-size: 40px;
+    font-size: 30px;
   }
+
+  .owl-carousel .owl-nav{
+    display: none;
+  }
+}
+
+.site-brochure{
+  background-color: #ddd;
+  padding: 20px;
+}
+
+.btn-download{
+  background-color: #38484F;
+  color: #fff;
+}
+.btn-download:hover{
+  color: #fff;
 }
